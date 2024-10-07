@@ -4,12 +4,12 @@ import { Container } from "@mui/material";
 
 export default function LoginPage() {
     return (
-        <Container sx={{ 
+        <Container maxWidth={false} sx={{ 
             height: "100vh",
             width: "100vw",
             backgroundSize: "100% 100%",
             backgroundPosition: "0px 0px,0px 0px,0px 0px,0px 0px,0px 0px",
-            backgroundImage: "radial-gradient(75% 75% at 4% 12%, #004d7a 0%, #073AFF00 78%),radial-gradient(80% 80% at 75% 101%, #521639 0%, #073AFF00 78%),radial-gradient(80% 80% at 75% 8%, #0d0f32 0%, #073AFF00 78%),radial-gradient(80% 80% at -6% 87%, #00142a 0%, #073AFF00 78%),radial-gradient(75% 75% at 81% 12%, #0d0f32 0%, #0d0f32 64%, #0d0f32 98%)",
+            backgroundImage: "radial-gradient(75% 60% at -3% 4%, #014a77 0%, #FFFFFF00 97%),radial-gradient(60% 50% at 76% 93%, #4d1538 0%, #FFFFFF00 97%),radial-gradient(200% 200% at 88% 13%, #0D0E31FF 0%, #FFFFFF00 97%),radial-gradient(200% 200% at 5% 97%, #02122b 0%, #FFFFFFFF 99%),radial-gradient(150% 150% at 47% 68%, #02122b 0%, #FFFFFFFF 99%)",
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
